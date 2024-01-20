@@ -1,5 +1,53 @@
 *{
-	background-color: black;
-	color: white;
+	border: 10px;
+	border-radius: 10px;
 }
 
+html{
+	background-color:rgb(44.825, 48.616, 50.801);
+	color: rgb(255, 255, 255);
+	font-family:sans-serif;
+	
+}
+
+header{
+	background-color: rgb(38 28 222);
+	padding-left: 0.3rem;
+	margin-top: -0.8rem;
+	margin-bottom: -0.5rem;
+}
+
+header h1{
+	padding-top: 0.1rem;
+}
+
+header p{
+	padding-bottom: 0.1rem;
+
+}
+
+nav li{
+	display: inline;
+	margin-right: 0.5rem;
+}
+
+nav{
+	background-color: black;
+	color: white;
+	padding: 0.5rem;
+	margin: 1rem 0;
+}
+
+nav a{
+	color: white;
+	text-decoration: none;
+}
+
+nav ul{
+	padding: 0;
+	margin: 0;
+}
+
+main{
+	margin-left: 0.5rem;
+}
